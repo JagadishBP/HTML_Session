@@ -3,19 +3,88 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tables</title>
+    <style>
+        table,th,td
+        {
+            border: 2px solid red;
+        }
+    </style>
 </head>
 <body>
-    <Table>
+    <!-- <Table> -->
         <tr>
-            <th>SLNo</th>
-            <th>name</th>
-            <th>Age</th>
-            <th>SLNo</th>
-            <tr> <td>1</td>
+            <!-- <th>SLNo</th> -->
+            <!-- <th>name</th> -->
+            <!-- <th>Age</th> -->
+            <!-- <th>SLNo</th> -->
+            <!-- <tr> <td>1</td>
             <td>jaga</td>
             <td>34</td>
+        </tr> -->
+    <!-- </Table> -->
+    <table>
+        <caption><Strong>Time Table</caption>
+        <tr>
+            <th>Day/Period</th>
+            <th>I</th>
+            <th>II</th>
+            <th>III</th>
+            <th>Lunch</th>
+            <th>IV</th>
+            <th>V</th>
+            <th>VI</th>
+            <th>VII</th>
         </tr>
-    </Table>
+        <tr>
+            <th>Monday</th>
+            <td>Eng</td>
+            <td>Mat</td>
+            <td>Che</td>
+            <td rowspan="6">Lunch</td>
+            <td colspan="3">Lab</td>
+            <td>Phy</td>
+        </tr>
+        <tr>
+            <th>TuesDay</th>
+            <td colspan="3">Lab</td>
+            <td>Eng</td>
+            <td>Mat</td>
+            <td>Chemistry</td>
+            <td>SPORTS</td>
+        </tr>
+        <tr>
+            <th>Wednesday</th>
+            <td>mat</td>
+            <td>Phy</td>
+            <td>Eng</td>
+            <td>Chem</td>
+            <td colspan="3">LIBRARY</td>
+        </tr>
+        <tr>
+            <th>Thursday</th>
+            <td>Phy</td>
+            <td>Eng</td>
+            <td>Chem</td>
+            <td colspan="3">LAB</td>
+            <td>Mat</td>
+        </tr>
+        <tr>
+            <th>Friday</th>
+            <td colspan="3">LAB</td>
+            <td>Mat</td>
+            <td>Chem</td>
+            <td>Eng</td>
+            <td>Phy</td>
+        </tr>
+        <tr>
+        <th>Saturday</th> 
+        <td>Eng</td>
+        <td>Chem</td>
+        <td>Mat</td>
+        <td colspan="3">SEMINAR</td>
+        <td>Sports</td> 
+        </tr>
+       </table>
 
     
 </body>
