@@ -1,0 +1,14 @@
+.outer{
+    display: grid;
+    margin: 20px;
+    padding: 20px;
+display: grid;
+    gap: 20px;
+    border: 2px;
+    border-top-left-radius: 20px;
+}
+
+.inner1{
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
